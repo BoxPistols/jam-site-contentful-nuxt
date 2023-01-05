@@ -1,7 +1,17 @@
+// Add
+
+const config = require('./.contentful.json')
+const contentful = require('contentful')
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   mode: 'universal',
+  // add
+  env: {
+    CTF_SPACE_ID: config.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   /*
