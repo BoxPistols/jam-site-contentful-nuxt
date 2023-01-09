@@ -1,8 +1,8 @@
-// Add
-
-const config = require('./.contentful.json')
+// eslint-disable-next-line no-unused-vars, nuxt/no-cjs-in-config
 const contentful = require('contentful')
-
+// eslint-disable-next-line nuxt/no-cjs-in-config
+const config = require('./.contentful.json')
+// ここまで追加
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
