@@ -1,16 +1,20 @@
 <template>
   <div>
     <div v-for="work in works" :key="work.sys.id">
-      <p>{{ work.fields.category.fields.name }}</p>
-      <h3>{{ work.fields.title }}</h3>
-      <h4>{{ work.fields.subtitle }}</h4>
+      <p>
+        work.fields.category.fields.name{ work.fields.category.fields.name }}
+      </p>
+      <h3>work.fields.title{{ work.fields.title }}</h3>
+      <h4>work.fields.subtitle{{ work.fields.subtitle }}</h4>
     </div>
   </div>
 </template>
 
 <script>
 import { createClient } from '~/plugins/contentful'
+
 const client = createClient()
+
 export default {
   asyncData() {
     return Promise.all([
