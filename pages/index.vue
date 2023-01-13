@@ -7,6 +7,11 @@
       </p>
       <h3>work.fields.title{{ work.fields.title }}</h3>
       <h4>work.fields.subtitle{{ work.fields.subtitle }}</h4>
+      <div>
+        <li v-for="tag in work.fields.tag" :key="tag.sys.id">
+          {{ tag.fields.name }}
+        </li>
+      </div>
     </div>
   </div>
 </template>

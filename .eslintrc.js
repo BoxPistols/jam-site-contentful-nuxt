@@ -14,5 +14,15 @@ module.exports = {
   ],
   plugins: [],
   // add your custom rules here
-  rules: {},
+  // INFO: コーディングルール TODO: PrettierファイルでAutoFormat 同一の値
+  rules: {
+    semi: false,
+    singleQuote: true,
+  },
+  'prettier/prettier': [
+    'error',
+    {
+      endOfLine: 'auto',
+    },
+  ],
 }
