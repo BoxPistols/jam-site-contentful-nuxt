@@ -18,7 +18,6 @@
 
 <script>
 import { createClient } from '~/plugins/contentful'
-
 const client = createClient()
 
 export default {

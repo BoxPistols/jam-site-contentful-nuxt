@@ -9,5 +9,59 @@
     "**/Thumbs.db": true,
     "**/node_modules": true
   },
-  "editor.formatOnSave": true
+  "editor.formatOnSave": false,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabCompletion": "on",
+  "tabout.charactersToTabOutFrom": [
+    {
+      "open": "[",
+      "close": "]"
+    },
+    {
+      "open": "{",
+      "close": "}"
+    },
+    {
+      "open": "(",
+      "close": ")"
+    },
+    {
+      "open": "'",
+      "close": "'"
+    },
+    {
+      "open": "\"",
+      "close": "\""
+    },
+    {
+      "open": ":",
+      "close": ":"
+    },
+    {
+      "open": "=",
+      "close": "="
+    },
+    {
+      "open": ">",
+      "close": ">"
+    },
+    {
+      "open": "<",
+      "close": "<"
+    },
+    {
+      "open": ".",
+      "close": "."
+    },
+    {
+      "open": "`",
+      "close": "`"
+    },
+    {
+      "open": ";",
+      "close": ";"
+    }
+  ],
+  "editor.stickyScroll.maxLineCount": 2,
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

@@ -9,8 +9,8 @@
           <div>
             <h1 class="font-bold">Kyo Yasuhisa</h1>
             <p class="text-xs text-justify">
-              フロントエンドエンジニアのKyo Yasuhisaです。Vue.js,
-              Nuxt.jsが大好きです。Pythonも使います。ご依頼はDMからどうぞ。
+              フロントエンドエンジニアかな？<br />
+              Vueが苦手です。UIUXファースト。
             </p>
           </div>
         </div>

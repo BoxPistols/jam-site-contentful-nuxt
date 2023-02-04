@@ -5,24 +5,11 @@ module.exports = {
     node: true,
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false,
   },
-  extends: [
-    '@nuxtjs',
-    'plugin:prettier/recommended',
-    'plugin:nuxt/recommended',
-  ],
+  extends: ['@nuxtjs', 'plugin:prettier/recommended', 'prettier'],
   plugins: [],
   // add your custom rules here
-  // INFO: コーディングルール TODO: PrettierファイルでAutoFormat 同一の値
-  rules: {
-    semi: false,
-    singleQuote: true,
-  },
-  'prettier/prettier': [
-    'error',
-    {
-      endOfLine: 'auto',
-    },
-  ],
+  rules: {},
 }
